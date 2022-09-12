@@ -1,0 +1,25 @@
+.FooterDiv {
+    height: 7%;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    color: #fff;
+    font-size: 16px;
+    font-family: BorLowRegular;
+    letter-spacing: 0.72px;
+    line-height: 35px;
+}
+
+.FooterBorder{
+    margin-left: 15%;
+    height: 100%;
+    border-left: solid 2px #fff;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 750px) {
+    .FooterDiv{
+        display: none;
+    }
+}

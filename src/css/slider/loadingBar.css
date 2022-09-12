@@ -1,0 +1,23 @@
+@keyframes LoadingAnim {
+    from{ width: 0%;}
+    to{ width: 100%;}
+}
+
+.LoadingBarDiv{
+    height: 2px;
+    width: 35%;
+
+    background-color: #fff;
+}
+
+#loadingBar{
+    height: 2px;
+    width: 0%;
+    background-color: var(--green);
+
+    animation: LoadingAnim;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}

@@ -1,0 +1,31 @@
+.ContentDiv p {
+    max-height: 30vh;
+    width: 55%;
+
+    overflow: hidden;
+    text-justify: distribute-all-lines;
+    text-overflow: ellipsis;
+
+    font-size: 18px;
+    font-family: BorLowRegular;
+
+    letter-spacing: 0.72px;
+    line-height: 35px;
+
+    
+}
+
+@media screen and (max-width: 1500px) {
+    .ContentDiv p {
+        font-size: 18px;
+        max-height: 30vh;
+        width: 75%;
+    
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .ContentDiv p {
+        width: 95%;
+    }
+}

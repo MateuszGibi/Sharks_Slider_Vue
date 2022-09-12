@@ -1,0 +1,31 @@
+:root{
+    --green: #2ECC71;
+    --menuBgColor: #ECECEC;
+    --menuColor: #DADADA;
+
+    --menuHeight: 10vh;
+}
+
+@font-face {
+    font-family: WorkSansBold;
+    src: url('../assets/fonts/WorkSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: WorkSansLight;
+    src: url('../assets/fonts/WorkSans-Light.ttf');
+}
+@font-face {
+    font-family: WorkSansThin;
+    src: url('../assets/fonts/WorkSans-Thin.ttf');
+}
+
+@font-face {
+    font-family: BorlowRegular;
+    src: url('../assets/fonts/Barlow-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
